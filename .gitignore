@@ -1,6 +1,7 @@
 .DS_Store
 node_modules/
+__pycache__/
+*.pyc
 
-# Telegram skill local secrets/state
-skills/telegram/.skill.config
-skills/telegram/telegram-chats.json
+# Local secrets (never commit)
+.env
